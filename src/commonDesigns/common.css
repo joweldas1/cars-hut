@@ -1,0 +1,56 @@
+/* /button desing--------------- */
+
+.button-common{
+    color: white;
+    background-color: purple;
+    padding:12px 16px ;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: none;
+    border: 1px solid purple;
+    
+}
+.button-common:hover{
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+}
+.button-common:active{
+    background-color: purple;
+    color: white;
+}   
+
+/* text-desing------------ */
+
+.text-menu{
+    color: purple;
+    font-weight: 700;
+}
+.text-menu:hover{
+    color: black;
+}
+.text-icon{
+    color: purple;
+    font-size: 30px;
+}
+/* banener------------------- */
+.banner{
+    
+        background: linear-gradient(to bottom, rgba(128, 0, 128, .4), rgba(0, 0, 0, .6)), url('/public/street-2262223_1280.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
+    
+}
+.shadow-m{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    background: linear-gradient(to bottom, rgba(128, 0, 128, .3), rgba(0, 0, 0, .003))
+}
+.shadow{
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
